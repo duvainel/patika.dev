@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding-bottom: 1rem;
+}
+
+
+p {
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 16px;
+    padding: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-size: 13px;
+}
+
+a:hover {
+    color: orange;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #E900FF;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.header-nav {
+    background-color: rgb(29, 28, 28);
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+}
+
+.ilk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    font-size: 12px;
+    margin-right: 1.2rem;
+}
+
+
+.icerik {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+
+.icerik img {
+    margin-right: 1rem;
+}
+
+.son {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(97, 97, 97);
+}
+
+.ekipuye1, .ekipuye2, .ekipuye3 {
+    margin-right: 1.5rem;
+}
+
+section hr {
+    margin-bottom: 2.5rem;
+}
+
+.ekipuye1 hr, .ekipuye2 hr, .ekipuye3 hr, .ekipuye4  hr {
+    margin: 1rem 0;
+
+}
+
+.ekipuye1 p, .ekipuye2 p, .ekipuye3 p, .ekipuye4 p {
+    font-size: 13px;
+}
+
+.son h3 {
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+
+.son h4 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+.footer_alt {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(224, 211, 211);
+    padding: 1.5rem 0;
+    font-size: 13px;
+}
+
+.sekil {
+    display: flex;
+    justify-content: start;
+}
+
+.yuvarlak{ 
+    width: 28px;
+    height: 28px;
+    background: rgb(182, 182, 182); 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    margin: 1rem 0.7rem 1rem 0;
+}
+
+@media all and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(139, 138, 138);
+    }
+    .header-nav a{
+        margin-bottom: 0.5rem;
+    }
+
+    section {
+        padding-left: 1rem;
+    }
+
+    .ilk {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .son {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .footer_alt {
+        padding-left: 1rem;
+        flex-direction: column;
+    }
+}
